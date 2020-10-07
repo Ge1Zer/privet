@@ -2,9 +2,8 @@
 
 #  Privet Chat
 
-## Sait
 
-## Start
+### Start
 ```node
  npm start
 ```
