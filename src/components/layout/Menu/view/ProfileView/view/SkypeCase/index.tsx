@@ -3,7 +3,7 @@ import './styles/styles.scss'
 
 const SkypeCase : React.FC = () =>{
     return (
-        <div className="skype__case">
+        <div className="profile-skype">
          SkypeCase
         </div>
     )

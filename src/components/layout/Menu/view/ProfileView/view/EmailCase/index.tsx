@@ -3,7 +3,7 @@ import './styles/styles.scss'
 
 const EmailCase : React.FC = () =>{
     return (
-        <div className="ava__case">
+        <div className="profile-email">
           EmailCase
         </div>
     )

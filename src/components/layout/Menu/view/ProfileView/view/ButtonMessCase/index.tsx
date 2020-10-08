@@ -3,8 +3,9 @@ import './styles/styles.scss'
 
 const ButtonCase : React.FC = () =>{
     return (
-        <div className="button__case">
-            <button>Message</button>
+        <div className="profile-button">
+            <button className="profile-button__message">Message</button>
+            <button className="profile-button__more">more</button>
         </div>
     )
 }
