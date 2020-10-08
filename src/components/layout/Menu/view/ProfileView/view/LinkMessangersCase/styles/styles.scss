@@ -1,26 +1,12 @@
-.header{
-    background-color: rgb(188, 223, 155);
-    height: 100%;
+.link-mesger{
     display: flex;
-    flex-direction: column;
-}
-.header__logo{
-    flex: 1 1 20%;
-}
-
-.header__navbar{
-    flex: 1 1 80%;
-}
-
-.logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.navbar{
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+}
+.link-mesger__item{
+ width: 20%;
+ &>img{
+     width: 100%;
+     border-radius: 50%;
+ }
 }

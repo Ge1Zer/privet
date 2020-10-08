@@ -3,7 +3,7 @@ import './styles/styles.scss'
 const NameCase : React.FC = () =>{
     return (
         <div className="profile-name">
-            NameCase
+            <p>NameCase</p>
         </div>
     )
 }
