@@ -1,14 +1,14 @@
 import React from 'react'
 import MenuView from './view/MenuView';
 import ProfileView from './view/ProfileView';
+import './styles/styles.scss'
 
 const MenuCase: React.FC = (props: any) => {
-   console.log('1')
    return (
        <>
-          <nav>
+          <header>
               <MenuView />
-          </nav>
+          </header>
           <main>
               {props.children}
           </main>

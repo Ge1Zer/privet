@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuCase from '../layout/Menu'
+import MenuCase from '../Layout/Menu';
 import RoomCase from './Room'
 
 const PageCase: React.FC = () => {

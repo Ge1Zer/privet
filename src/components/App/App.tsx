@@ -1,5 +1,5 @@
 import React from 'react';
-import PageCase from '../page/PageCase';
+import PageCase from '../Page/PageCase';
 import './App.scss';
 import store from '../Store/index'
 import { Provider } from 'mobx-react';
@@ -20,7 +20,6 @@ function App() {
           </Switch>
         </Provider>
     </BrowserRouter>
-
   );
 }
 

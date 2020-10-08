@@ -1,13 +1,18 @@
 import React from 'react'
+import ListFriend from './ListFriend'
+import ListRoom from './ListRoom'
+import './styles/styles.scss'
+
 const MenuView : React.FC = () =>{
     return (
         <>
-            <ul>
-                <li>1</li>
-            </ul>
-            <ul>
-                <li>1</li>
-            </ul>
+          <div className="logo">
+              <p>Logo</p>
+          </div>
+          <nav className="navbar">
+              <ListRoom />
+              <ListFriend />     
+          </nav>                   
         </>
     )
 }
