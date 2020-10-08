@@ -3,7 +3,7 @@ import './styles/styles.scss'
 
 const AvatarCase : React.FC = () =>{
     return (
-        <div className="ava__case">
+        <div className="profile-avatar">
           <img src="#" alt="img" />
         </div>
     )

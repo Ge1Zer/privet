@@ -9,14 +9,14 @@ import SkypeCase from './view/SkypeCase';
 
 const ProfileView : React.FC = () =>{
     return (
-        <>
+        <div className="aside">
             <AvatarCase />
             <NameCase />
             <LinkMessagers />
             <ButtonCase />
             <SkypeCase />
             <EmailCase />
-        </>
+        </div>
     )
 }
 export default ProfileView;
