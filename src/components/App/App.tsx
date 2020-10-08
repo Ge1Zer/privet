@@ -7,7 +7,7 @@ import { Provider } from 'mobx-react';
 
 function App() {
   return (
-    <div>
+    <div className={"App"}>
       <Provider store={store()}>
         <PageCase />
       </Provider>
