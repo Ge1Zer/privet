@@ -1,15 +1,12 @@
 import React from 'react'
-import MenuCase from './Menu'
-import ProfileCase from './Profile'
+import MenuCase from '../layout/Menu'
 import RoomCase from './Room'
 
-const PageCase : React.FC = () =>{
-    return(
-        <>
-            <MenuCase />
+const PageCase: React.FC = () => {
+    return (
+        <MenuCase>
             <RoomCase />
-            <ProfileCase />
-        </>
+        </MenuCase>
     )
 }
 export default PageCase;

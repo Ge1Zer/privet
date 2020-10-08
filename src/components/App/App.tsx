@@ -3,15 +3,24 @@ import PageCase from '../page/PageCase';
 import './App.scss';
 import store from '../Store/index'
 import { Provider } from 'mobx-react';
+import { 
+  BrowserRouter, 
+  Switch,
+  Route, Redirect 
+} from 'react-router-dom';
 
 
 function App() {
   return (
-    <div className={"App"}>
-      <Provider store={store()}>
-        <PageCase />
-      </Provider>
-    </div>
+    <BrowserRouter>
+        <Provider store={store()}>
+          <Switch>
+            <Route path ='/:id' component={PageCase} />
+            <Redirect to='/home'/>
+          </Switch>
+        </Provider>
+    </BrowserRouter>
+
   );
 }
 
