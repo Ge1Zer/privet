@@ -6,8 +6,7 @@ const MessItemCase: React.FC = (props: any) => {
     return (
         <li className="message">
             <div className="message__avatar">
-            <img src="http://dummyimage.com/40x40" alt="logo"/>
-
+                <img src="http://dummyimage.com/40x40" alt="logo" />
             </div>
 
             <div className="message__desc">
