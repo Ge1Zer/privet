@@ -1,0 +1,124 @@
+{
+  "persons":[
+     {
+      "id": 1,
+      "name": "Anna",
+      "photo": "#",
+      "age" : 18 ,
+      "email" : "anna@gmail.com",
+      "instagramm" : "#anna001" ,
+      "facebook" : "#anna001" ,
+      "vk" : "#anna#" ,
+      "skype" : "anna001"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Anna",
+      "photo": "#",
+      "age" : 18 ,
+      "email" : "anna@gmail.com",
+      "instagramm" : "#anna001" ,
+      "facebook" : "#anna001" ,
+      "vk" : "#anna#" ,
+      "skype" : "anna001"
+    },
+    {
+      "id": 2,
+      "name": "Andrey",
+      "photo": "#",
+      "age" : 18 ,
+      "email" : "anna@gmail.com",
+      "instagramm" : "#anna001" ,
+      "facebook" : "#anna001" ,
+      "vk" : "#anna#" ,
+      "skype" : "anna001"
+    },
+    {
+      "id": 3,
+      "name": "Fut",
+      "photo": "#",
+      "age" : 18 ,
+      "email" : "anna@gmail.com",
+      "instagramm" : "#anna001" ,
+      "facebook" : "#anna001" ,
+      "vk" : "#anna#" ,
+      "skype" : "anna001"
+    }
+  ],
+
+  "rooms" : [
+    {
+      "id": 1,
+      "title" : "school" ,
+      "messageId" : 1  
+    }
+  ],
+
+  "dialogs" : [
+    {
+      "id": 1,
+      "title" : "school" ,
+      "messageId" : 2 
+    }
+  ],
+
+  "messages" : [
+    {
+      "id": 1 , 
+
+      "profileId" : 1 ,
+      "roomId" : 1 ,
+      "dialogId" : 1 ,
+      
+      "text" : "hello people" ,
+      "photo1" : 1 ,
+      "photo2" : 2 
+    },
+    {
+      "id": 2 , 
+
+      "profileId" : 2 ,
+      "roomId" : 1 ,
+      "dialogId" : 1 ,
+
+      "text" : "hello" ,
+      "roomId" : 1 ,
+      "photoId" : 2 
+    }
+   ],
+
+
+   "photos" : [
+    {
+      "id" : 1 ,
+      "src" : "#photo1"
+    },
+    {
+      "id" : 2 ,
+      "src" : "#photo2"
+    },
+    {
+      "id" : 3 ,
+      "src" : "#photo1"
+    },
+    {
+      "id" : 4 ,
+      "src" : "#photo2"
+    }
+   ],
+
+
+  "responseDialogs" : [
+    { "id":1 , "personId": 1, "profileId": 2, "status" : 0 },
+    { "id":2 , "personId": 1, "profileId": 3, "status" : 1 }
+  ],
+
+  "responseRooms" : [
+    { "id":1 , "profileId": 1, "roomId": 1, "status" : 0 },
+    { "id":2 , "profileId": 2, "roomId": 1, "status" : 1 },
+    { "id":3 , "profileId": 3, "roomId": 1, "status" : 2 }
+  ]
+  
+}

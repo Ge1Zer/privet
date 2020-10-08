@@ -1,19 +1,84 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "json-server",
-        "author": "typicode"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "profiles": [
+    {
+      "id": 1,
+      "privetId":"0001",
+      "name": "Anna",
+      "photo": "#",
+      "age" : 18 ,
+      "email" : "anna@gmail.com",
+      "instagramm" : "#anna001" ,
+      "facebook" : "#anna001" ,
+      "vk" : "#anna#" ,
+      "skype" : "anna001"
     }
-  }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "privetId":"0001",
+      "name": "Anna",
+      "photo": "#",
+      "age" : 18 ,
+      "email" : "anna@gmail.com",
+      "instagramm" : "#anna001" ,
+      "facebook" : "#anna001" ,
+      "vk" : "#anna#" ,
+      "skype" : "anna001"
+    },
+    {
+      "id": 2,
+      "privetId":"0002",
+      "name": "Andrey",
+      "photo": "#",
+      "age" : 18 ,
+      "email" : "anna@gmail.com",
+      "instagramm" : "#anna001" ,
+      "facebook" : "#anna001" ,
+      "vk" : "#anna#" ,
+      "skype" : "anna001"
+    },
+    {
+      "id": 3,
+      "privetId":"0003",
+      "name": "Fut",
+      "photo": "#",
+      "age" : 18 ,
+      "email" : "anna@gmail.com",
+      "instagramm" : "#anna001" ,
+      "facebook" : "#anna001" ,
+      "vk" : "#anna#" ,
+      "skype" : "anna001"
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "profileId": 1,
+      "userId": 2,
+      "status": 1
+    },
+    {
+      "id": 2,
+      "profileId": 1,
+      "userId": 3,
+      "status": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "title" : "friend",
+      "userId": 2,
+      "status": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "text": "hello",
+      "profileId": 1,
+      "roomId": 1
+    }
+  ]
+}
