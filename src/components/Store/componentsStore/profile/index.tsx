@@ -14,7 +14,11 @@
 //    @action function ActSetAdmin ():InterAdminType{
 
 //    }
-
-
-
-// }
+class Profile {
+    name = "Profile"
+    admin
+    constructor(props : any){
+        this.admin = props
+    }
+}
+export default Profile
