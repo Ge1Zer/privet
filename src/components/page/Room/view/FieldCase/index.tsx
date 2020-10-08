@@ -3,9 +3,9 @@ import './styles/styles.scss'
 
 const FieldCase: React.FC = (props: any) => {
     return (
-        <footer>
-            FieldCase
-        </footer>
+        <aside className="room-field">
+            <input type="text"/>
+        </aside>
     )
 }
 export default FieldCase;

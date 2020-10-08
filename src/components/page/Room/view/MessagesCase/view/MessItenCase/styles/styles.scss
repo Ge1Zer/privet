@@ -1,0 +1,20 @@
+.message{
+  display: flex;
+  margin: 10px 0;
+}
+.message__avatar{
+   flex: 10%;
+   text-align: right;
+   &>img{
+       border-radius: 50%;
+   }
+}
+.message__desc{
+    flex:  1 1 90%;
+}
+.message__name{
+
+}
+.message__text{
+
+}

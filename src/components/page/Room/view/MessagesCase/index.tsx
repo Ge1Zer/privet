@@ -5,9 +5,13 @@ import MessItemCase from './view/MessItenCase';
 const MessagesCase: React.FC = (props: any) => {
 
     return (
-        <ul>
-            <li><MessItemCase /></li>
-        </ul>
+        <div className="room-messages">
+            <ul>
+                <li><MessItemCase /></li>
+                <li><MessItemCase /></li>
+                <li><MessItemCase /></li>
+            </ul>
+        </div>
     )
 }
 export default MessagesCase;

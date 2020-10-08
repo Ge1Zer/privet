@@ -10,9 +10,11 @@ const RoomCase: React.FC = inject('store')(observer((props: any) => {
 
     return (
         <article>
-            <TitleCase />
-            <MessagesCase />
-            <FieldCase />
+            <div className="main">
+                <TitleCase />
+                <MessagesCase />
+                <FieldCase />
+            </div>
         </article>
     )
 }))

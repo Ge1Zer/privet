@@ -1,0 +1,14 @@
+.room-field{
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+
+    &>input{
+        width:80%;
+        border: 0.5px solid rgb(206, 152, 152);
+    }
+}

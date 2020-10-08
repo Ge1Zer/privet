@@ -4,7 +4,7 @@ import './styles/styles.scss'
 const TitleCase: React.FC = (props: any) => {
 
     return (
-        <header>
+        <header className="room-header">
             TitleCase
         </header>
     )

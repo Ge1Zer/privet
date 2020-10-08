@@ -5,7 +5,11 @@ header{
 main{
   width: 70%;
   height: 100%;
+  &>article{
+    height: 100%;
+  }
 }
+
 aside{
   width: 15%;
   height: 100%;
